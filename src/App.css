@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Menu1 styling */
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -59px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .menu .menuTitle {
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 60px;
+    color: black;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .menuList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    color: black;
   }
-}
+  
+  /* MENUIB STYLING */
+  
+  .menuItem {
+    border-radius: 15px;
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 29px;
+  }
+
+  .menuItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .name1{
+    font-size: 25px;
+  }
+
+  .order{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    margin: 20px;
+    /* background-color: #121619; */
+    padding: 10px;
+  }
+  
+  .menuItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menuItem h1,
+  .menuItem p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .menuList {
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+
+  
+  @media only screen and (max-width: 800px) {
+    .menuList {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .menu .menuTitle {
+        font-family: cursive;
+        font-size: 30px;
+      }
+  }

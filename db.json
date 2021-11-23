@@ -1,0 +1,49 @@
+{
+  "Book": [
+    {
+      "name": "Bright Jonathan",
+      "Email": "brightjonathan0000@gmail.com",
+      "number": "08137122768",
+      "date": "2021-11-22",
+      "time": "05:00",
+      "people": "10",
+      "message": "we are group coming for a meeting in the state.. booking for 5 rooms",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "name": "Bright Jonathan",
+      "Email": "brightjonathan64@gmail.com",
+      "subject": "internet",
+      "message": "I will love you the hotel to provide adequate internet for their custom. Thanks",
+      "id": 1
+    }
+  ],
+  "subscribe": [
+    {
+      "Subscribe": "brightjonathan64@gmail.com",
+      "id": 1
+    }
+  ],
+  "account": [
+    {
+      "value": {
+        "username": "samuel",
+        "email": "kelvin_osa@yahoo.com",
+        "password": "12345678",
+        "password2": "12345678"
+      },
+      "id": 1
+    },
+    {
+      "value": {
+        "username": "Bright ",
+        "email": "kelvin_osa@yahoo.com",
+        "password": "12345678",
+        "password2": "12345678"
+      },
+      "id": 2
+    }
+  ]
+}
